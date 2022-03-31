@@ -1,0 +1,149 @@
+body,html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    height: 60px;
+    background-color: #5B7DB1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+}
+.todo{
+    margin-left: 150px;
+}
+.btn{
+    height: 40px;
+    width:40px;
+    border-radius: 50px;
+    background-color: red;
+    margin-right: 150px;
+    display: flex;
+    position: relative;
+}
+.plus{
+    /* background-color: white; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 8px;
+    color: white;
+    
+
+}
+.main1{
+    height: 600px;
+    background-color:#E2DEA9;
+    /* margin-top: 5px; */
+    /* z-index: 1; */
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    display:block;
+    margin: 5px;
+}
+.header1{
+    display:flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    height: 5vh;
+    background: aqua;
+    width: 16.2vw;
+}
+
+.min-cut{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    align-content: center;
+    align-items: center;
+}
+.cut{
+    width:10px;
+    height:10px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.min{
+    width:10px;
+    height:10px;
+    border-radius: 50px;
+   margin-right: 2vw;
+}
+/* .main{
+    height: 600px;
+    background-color:#E2DEA9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .main1-textarea{
+    width:17vw;
+} */
+.pop-up{
+    background-color: #E2DEA9;
+     position:fixed;
+     left: 40%;
+     top:20%;
+    border: 2px solid;
+    width:350px;
+    height:350px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+/* .pop-inner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+ .icon-inner{
+    width: 2rem;
+    height: 2rem;
+    /* background-color: #E83A14; */
+    margin-left: 17rem;
+    margin-top: 1rem;
+  }  
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.input-resize{
+    width:235px;
+    height: 30px;
+    margin-left: 2rem;
+}
+.area{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2rem;
+}
+.add{
+    margin-left: 2rem;
+    width: 243px;
+    height:30px;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bottom{
+    height:80px;
+    background-color: #E83A14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    background-color:yellow ;
+}
+.cross:hover{
+    color: rgb(194, 107, 107);
+}
